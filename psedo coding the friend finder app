@@ -1,0 +1,30 @@
+Pseudo code for FriendFinder Week 13
+
+<!-- HTML
+two input boxes
+10 questions with radio buttons -->
+SPEND 30-45 MINUTES PSEDO CODING BEFORE ACTUALLY CODING
+
+Client side JS.
+once the question boxes are filled in with valid entries, and the 10 question have been answered,
+create an object with all that data. the name the link and the answers to the 10 questions
+do an ajax call to the the server route to check the the new data against data already in the database (new friend checked against all other existing friends)
+
+NodeJs (server side)
+
+Take the request-body, (which is the new friend), place it in the database.
+Compare the new friend scores to all the existing friends' scores
+  total up the score for the new friend, and total up the scores for the old friends, compare to find best matches.
+  use an array, push the old friends' totals into an array.
+Find the first best match.
+
+Take the first best match and create an object with the friend's name, photo link, and send it back to the client-side in the response object.
+
+Back on client
+
+Display in the the modal, the best match. (show photo and friend name)
+
+Once the modal is closed (when user clicks the close button on the modal), then clear the text boxes and prepare the 10 questions for a new user.
+
+Start again.
+
