@@ -1,8 +1,9 @@
 // requiring express
-var PORT = 3000;
 var express = require('express');
 // creates an express app
 var app = express()
+//var port communicates with server it allows us to serve our data through the port. its like a door through the server
+var PORT = 3000;
 // get  a route
 //request is  a object with the users request response is what they are given back 
   app.get('/',function(req,res){

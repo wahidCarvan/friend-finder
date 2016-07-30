@@ -1,0 +1,23 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "week 13 hw",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wahidc7101/friend-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wahidc7101/friend-finder/issues"
+  },
+  "homepage": "https://github.com/wahidc7101/friend-finder#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
